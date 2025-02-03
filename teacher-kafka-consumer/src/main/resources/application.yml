@@ -2,6 +2,18 @@ spring:
   application:
     name: teacher-kafka-consumer
 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testee
+    username: postgres
+    password: senhasegura
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
   kafka:
     client-id: "${spring.application.name}"
     bootstrap-servers: ${KAFKA_SERVER:localhost:9092}
@@ -19,3 +31,4 @@ spring:
 
 server:
   port: 8083
+
