@@ -14,7 +14,6 @@ public class TeacherRepositoryAdapter implements TeacherRepository {
 
     @Override
     public void save(TeacherPortInDto teacher) {
-        // Mapeia a entidade do domínio para a entidade JPA (se necessário)
         TeacherPortOutDto teacherEntity = TeacherMapper.toEntity(teacher);
         teacherJpaRepository.save(teacherEntity);
     }
