@@ -13,7 +13,7 @@ salva a lista de professores num banco de dados postgres
 git clone https://github.com/guigann/ms-teachers-management.git
 ```
 
-3. Suba o container do docker para rodas as imagens do Kafka e do Postgres
+2. Suba o container do docker para rodas as imagens do Kafka e do Postgres
 ```
 docker-compose -f docker-compose.yml up
 ```
