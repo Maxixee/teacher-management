@@ -17,3 +17,6 @@ git clone https://github.com/guigann/ms-teachers-management.git
 ```
 docker-compose -f docker-compose.yml up
 ```
+
+3. Com o Swagger disponibilizado na pasta "Swagger" crie um mock pelo Mockoon, SOAPUI ou outro aplicativo <br>
+   de sua preferência e deixe rodando
