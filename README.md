@@ -10,7 +10,7 @@ salva a lista de professores num banco de dados postgres
 1. Primeiro clone o repositório
 
 ```
-git clone https://github.com/guigann/ms-teachers-management.git
+git clone https://github.com/Maxixee/teacher-management.git
 ```
 
 2. Suba o container do docker para rodas as imagens do Kafka e do Postgres
