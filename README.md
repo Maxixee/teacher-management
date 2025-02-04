@@ -1,8 +1,8 @@
 ## Microsserviço de gerenciamento de professores.
 
 ### Descrição
-O MS producer usa um feign cliente pra buscar informação em um mock de uma API de Instrutores, ao usar o endpoit de <br>
-listar todos os professores, essa lista é enviada por um topico kafka para o MS consumer, que consome a mensagem e <br>
+O MS producer usa um feign cliente pra buscar informação em um mock de uma API de Instrutores, ao usar o endpoit de 
+listar todos os professores, essa lista é enviada por um topico kafka para o MS consumer, que consome a mensagem e 
 salva a lista de professores num banco de dados postgres
 
 
