@@ -77,11 +77,6 @@
 			<version>3.0.0</version>
 		</dependency>
 
-		<!--		<dependency>-->
-		<!--			<groupId>br.com.tlf.commondomain.library.exception.spring.handler</groupId>-->
-		<!--			<artifactId>library-spring-exception-handling</artifactId>-->
-		<!--			<version>3.0.13</version>-->
-		<!--		</dependency>-->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-collections4</artifactId>
@@ -105,13 +100,7 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- from kafka-out -->
-		<!--<dependency>
-			<groupId>io.confluent</groupId>
-			<artifactId>kafka-schema-registry-client</artifactId>
-			<version>7.3.2</version>
-		</dependency> -->
-		<!-- from kafka-out -->
+		
 		<dependency>
 			<groupId>org.apache.avro</groupId>
 			<artifactId>avro</artifactId>
